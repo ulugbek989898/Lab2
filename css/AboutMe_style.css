@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: auto;
+	width: 900px;
+	padding: 20px;
+	background-color: lightgrey;
+	margin-top: 0;
+}
+p{
+	font-size: 22px;
+}
+h1{
+	text-align: center;
+
+}
+hr{
+	width: 800px;
+	margin-left: 0;
+	height: 2px;
+	background-color: grey
+}
+h2{
+	color: blue
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+.first-col{
+	padding: 20px;
+	padding-left: 80px;
+}
+.first-col ol{
+	padding-left: 20px;
+}
+
+.second-col{
+	padding: 20px;
+	padding-left: 40px;
+}
+.second-col ul{
+	padding-left: 20px;
+
+}
+.second-col li a{
+	text-decoration: none;
+}
+
+.first1-col li{
+	list-style-type: none;
+	color: red
+}
+.second2-col li{
+	list-style-type: none;
+	color: red
+}
